@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/ubuntu1604/MyValet/app/build/intermediates/res/merged/release/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/home/ubuntu1604/MyValet/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/ubuntu1604/MyValet/app/build/intermediates/res/merged/release/mipmap-xxhdpi/launcher_icon.png",
+        "source": "/home/ubuntu1604/MyValet/app/src/main/res/mipmap-xxhdpi/launcher_icon.png"
+    }
+]

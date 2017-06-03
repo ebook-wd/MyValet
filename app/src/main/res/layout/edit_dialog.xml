@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical"
+	android:background="#FFFFFF">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:orientation="horizontal">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="0dp"
+			android:text="Enter the item id"
+			android:layout_weight=".8"
+			android:layout_margin="10dp"
+			android:textColor="#000000"/>
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:ems="10"
+			android:id="@+id/editdialogEditText"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:orientation="horizontal">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="0dp"
+			android:text="Item Details"
+			android:layout_weight=".8"
+			android:layout_margin="10dp"
+			android:textColor="#000000"
+			android:textAlignment="center"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:orientation="horizontal">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="0dp"
+			android:text="Date"
+			android:layout_weight=".8"
+			android:layout_margin="5dp"
+			android:textColor="#000000"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="0dp"
+			android:text="Text"
+			android:layout_weight="1.0"
+			android:layout_margin="5dp"
+			android:textColor="#FF0000FF"
+			android:id="@+id/editdialogDateView"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:orientation="horizontal">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="0dp"
+			android:text="Transaction Type"
+			android:layout_weight="0.8"
+			android:layout_margin="5dp"
+			android:textColor="#000000"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="0dp"
+			android:text="Text"
+			android:layout_weight="1.0"
+			android:layout_margin="5dp"
+			android:textColor="#FF0000FF"
+			android:id="@+id/editdialogTransView"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:orientation="horizontal">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="0dp"
+			android:text="Catagory"
+			android:layout_weight="0.8"
+			android:layout_margin="5dp"
+			android:textColor="#000000"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="0dp"
+			android:text="Text"
+			android:layout_weight="1.0"
+			android:layout_margin="5dp"
+			android:textColor="#FF0000FF"
+			android:id="@+id/editdialogCatagoryView"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:orientation="horizontal">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="0dp"
+			android:text="Discription"
+			android:layout_weight="0.8"
+			android:layout_margin="5dp"
+			android:textColor="#000000"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="0dp"
+			android:text="Text"
+			android:layout_weight="1.0"
+			android:layout_margin="5dp"
+			android:textColor="#FF0000FF"
+			android:id="@+id/editdialogDiscView"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:orientation="horizontal">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="0dp"
+			android:text="Amount"
+			android:layout_weight="0.8"
+			android:layout_margin="5dp"
+			android:textColor="#000000"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="0dp"
+			android:text="Text"
+			android:layout_weight="1.0"
+			android:layout_margin="5dp"
+			android:textColor="#FF0000FF"
+			android:id="@+id/editdialogAmountView"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:orientation="horizontal">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="0dp"
+			android:text="Cancel"
+			android:layout_weight="1.0"
+			android:id="@+id/cancelButton"
+			android:background="#3CF4F4"
+			android:padding="5dp"
+			android:layout_margin="10dp"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="0dp"
+			android:text="Delete"
+			android:layout_weight="1.0"
+			android:id="@+id/deletButton"
+			android:background="#3CF4F4"
+			android:visibility="invisible"
+			android:layout_margin="10dp"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="0dp"
+			android:text="Edit"
+			android:layout_weight="1.0"
+			android:id="@+id/editButton"
+			android:background="#3CF4F4"
+			android:layout_margin="10dp"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

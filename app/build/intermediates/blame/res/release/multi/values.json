@@ -1,0 +1,593 @@
+[
+    {
+        "outputFile": "/home/ubuntu1604/MyValet/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 7,
+                    "endColumn": 16,
+                    "endOffset": 190
+                },
+                "from": {
+                    "file": "/home/ubuntu1604/MyValet/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 1,
+                        "startOffset": 1612,
+                        "endLine": 71,
+                        "endColumn": 16,
+                        "endOffset": 1753
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 195,
+                    "endLine": 19,
+                    "endColumn": 16,
+                    "endOffset": 465
+                },
+                "from": {
+                    "file": "/home/ubuntu1604/MyValet/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 1,
+                        "startOffset": 1334,
+                        "endLine": 65,
+                        "endColumn": 16,
+                        "endOffset": 1610
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 470,
+                    "endLine": 24,
+                    "endColumn": 16,
+                    "endOffset": 601
+                },
+                "from": {
+                    "file": "/home/ubuntu1604/MyValet/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 1,
+                        "startOffset": 328,
+                        "endLine": 14,
+                        "endColumn": 16,
+                        "endOffset": 459
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 606,
+                    "endLine": 33,
+                    "endColumn": 16,
+                    "endOffset": 821
+                },
+                "from": {
+                    "file": "/home/ubuntu1604/MyValet/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 1,
+                        "startOffset": 461,
+                        "endLine": 23,
+                        "endColumn": 16,
+                        "endOffset": 676
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 826,
+                    "endLine": 48,
+                    "endColumn": 16,
+                    "endOffset": 1157
+                },
+                "from": {
+                    "file": "/home/ubuntu1604/MyValet/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 1,
+                        "startOffset": 993,
+                        "endLine": 52,
+                        "endColumn": 16,
+                        "endOffset": 1330
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 1162,
+                    "endLine": 62,
+                    "endColumn": 16,
+                    "endOffset": 1475
+                },
+                "from": {
+                    "file": "/home/ubuntu1604/MyValet/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 1,
+                        "startOffset": 678,
+                        "endLine": 37,
+                        "endColumn": 16,
+                        "endOffset": 991
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 1480,
+                    "endColumn": 40,
+                    "endOffset": 1516
+                },
+                "from": {
+                    "file": "/home/ubuntu1604/MyValet/app/src/main/res/values/color.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 474,
+                        "endColumn": 40,
+                        "endOffset": 510
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 1521,
+                    "endColumn": 41,
+                    "endOffset": 1558
+                },
+                "from": {
+                    "file": "/home/ubuntu1604/MyValet/app/src/main/res/values/color.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 181,
+                        "endColumn": 41,
+                        "endOffset": 218
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 1563,
+                    "endColumn": 40,
+                    "endOffset": 1599
+                },
+                "from": {
+                    "file": "/home/ubuntu1604/MyValet/app/src/main/res/values/color.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 556,
+                        "endColumn": 40,
+                        "endOffset": 592
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 1604,
+                    "endColumn": 43,
+                    "endOffset": 1643
+                },
+                "from": {
+                    "file": "/home/ubuntu1604/MyValet/app/src/main/res/values/color.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 638,
+                        "endColumn": 43,
+                        "endOffset": 677
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 67,
+                    "startColumn": 4,
+                    "startOffset": 1648,
+                    "endColumn": 40,
+                    "endOffset": 1684
+                },
+                "from": {
+                    "file": "/home/ubuntu1604/MyValet/app/src/main/res/values/color.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 140,
+                        "endColumn": 40,
+                        "endOffset": 176
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 68,
+                    "startColumn": 4,
+                    "startOffset": 1689,
+                    "endColumn": 41,
+                    "endOffset": 1726
+                },
+                "from": {
+                    "file": "/home/ubuntu1604/MyValet/app/src/main/res/values/color.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 432,
+                        "endColumn": 41,
+                        "endOffset": 469
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 1731,
+                    "endColumn": 40,
+                    "endOffset": 1767
+                },
+                "from": {
+                    "file": "/home/ubuntu1604/MyValet/app/src/main/res/values/color.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 391,
+                        "endColumn": 40,
+                        "endOffset": 427
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 70,
+                    "startColumn": 4,
+                    "startOffset": 1772,
+                    "endColumn": 42,
+                    "endOffset": 1810
+                },
+                "from": {
+                    "file": "/home/ubuntu1604/MyValet/app/src/main/res/values/color.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 263,
+                        "endColumn": 42,
+                        "endOffset": 301
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 71,
+                    "startColumn": 4,
+                    "startOffset": 1815,
+                    "endColumn": 40,
+                    "endOffset": 1851
+                },
+                "from": {
+                    "file": "/home/ubuntu1604/MyValet/app/src/main/res/values/color.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 597,
+                        "endColumn": 40,
+                        "endOffset": 633
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 72,
+                    "startColumn": 4,
+                    "startOffset": 1856,
+                    "endColumn": 41,
+                    "endOffset": 1893
+                },
+                "from": {
+                    "file": "/home/ubuntu1604/MyValet/app/src/main/res/values/color.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 349,
+                        "endColumn": 41,
+                        "endOffset": 386
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 73,
+                    "startColumn": 4,
+                    "startOffset": 1898,
+                    "endColumn": 42,
+                    "endOffset": 1936
+                },
+                "from": {
+                    "file": "/home/ubuntu1604/MyValet/app/src/main/res/values/color.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 682,
+                        "endColumn": 42,
+                        "endOffset": 720
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 74,
+                    "startColumn": 4,
+                    "startOffset": 1941,
+                    "endColumn": 39,
+                    "endOffset": 1976
+                },
+                "from": {
+                    "file": "/home/ubuntu1604/MyValet/app/src/main/res/values/color.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 223,
+                        "endColumn": 39,
+                        "endOffset": 258
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 75,
+                    "startColumn": 4,
+                    "startOffset": 1981,
+                    "endColumn": 42,
+                    "endOffset": 2019
+                },
+                "from": {
+                    "file": "/home/ubuntu1604/MyValet/app/src/main/res/values/color.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 97,
+                        "endColumn": 42,
+                        "endOffset": 135
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 76,
+                    "startColumn": 4,
+                    "startOffset": 2024,
+                    "endColumn": 40,
+                    "endOffset": 2060
+                },
+                "from": {
+                    "file": "/home/ubuntu1604/MyValet/app/src/main/res/values/color.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 515,
+                        "endColumn": 40,
+                        "endOffset": 551
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 77,
+                    "startColumn": 4,
+                    "startOffset": 2065,
+                    "endColumn": 41,
+                    "endOffset": 2102
+                },
+                "from": {
+                    "file": "/home/ubuntu1604/MyValet/app/src/main/res/values/color.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 41,
+                        "endOffset": 92
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 78,
+                    "startColumn": 4,
+                    "startOffset": 2107,
+                    "endColumn": 42,
+                    "endOffset": 2145
+                },
+                "from": {
+                    "file": "/home/ubuntu1604/MyValet/app/src/main/res/values/color.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 306,
+                        "endColumn": 42,
+                        "endOffset": 344
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 79,
+                    "startColumn": 4,
+                    "startOffset": 2150,
+                    "endColumn": 44,
+                    "endOffset": 2190
+                },
+                "from": {
+                    "file": "/home/ubuntu1604/MyValet/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 44,
+                        "endOffset": 96
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 80,
+                    "startColumn": 4,
+                    "startOffset": 2195,
+                    "endColumn": 47,
+                    "endOffset": 2238
+                },
+                "from": {
+                    "file": "/home/ubuntu1604/MyValet/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 1,
+                        "startOffset": 151,
+                        "endColumn": 44,
+                        "endOffset": 194
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 2243,
+                    "endColumn": 44,
+                    "endOffset": 2283
+                },
+                "from": {
+                    "file": "/home/ubuntu1604/MyValet/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 1,
+                        "startOffset": 284,
+                        "endColumn": 41,
+                        "endOffset": 324
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 82,
+                    "startColumn": 4,
+                    "startOffset": 2288,
+                    "endColumn": 52,
+                    "endOffset": 2336
+                },
+                "from": {
+                    "file": "/home/ubuntu1604/MyValet/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 101,
+                        "endColumn": 52,
+                        "endOffset": 149
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 83,
+                    "startColumn": 4,
+                    "startOffset": 2341,
+                    "endColumn": 48,
+                    "endOffset": 2385
+                },
+                "from": {
+                    "file": "/home/ubuntu1604/MyValet/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 1,
+                        "startOffset": 196,
+                        "endColumn": 45,
+                        "endOffset": 240
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 2390,
+                    "endColumn": 44,
+                    "endOffset": 2430
+                },
+                "from": {
+                    "file": "/home/ubuntu1604/MyValet/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 1,
+                        "startOffset": 242,
+                        "endColumn": 41,
+                        "endOffset": 282
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 2435,
+                    "endLine": 86,
+                    "endColumn": 9,
+                    "endOffset": 2509
+                },
+                "from": {
+                    "file": "/home/ubuntu1604/MyValet/app/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 1,
+                        "startOffset": 52,
+                        "endLine": 3,
+                        "endColumn": 9,
+                        "endOffset": 128
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 87,
+                    "startColumn": 4,
+                    "startOffset": 2514,
+                    "endLine": 88,
+                    "endColumn": 9,
+                    "endOffset": 2583
+                },
+                "from": {
+                    "file": "/home/ubuntu1604/MyValet/app/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 1,
+                        "startOffset": 130,
+                        "endLine": 5,
+                        "endColumn": 9,
+                        "endOffset": 201
+                    }
+                }
+            }
+        ]
+    }
+]

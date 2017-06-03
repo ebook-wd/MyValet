@@ -1,0 +1,933 @@
+<html>
+ <head>
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   <style>
+	table.table1 {border-collapse: collapse;width: 100%;}
+	table.table1 th, td {text-align: left;padding: 8px;}
+	table.table1 tr:nth-child(2){background-color: #99cc00}
+    table.table1 tr:nth-child(3){background-color: white}
+	table.table1 tr:nth-child(4){background-color: #f2ffcc}
+	table.table1 tr:nth-child(5){background-color: white}
+
+    table.table1 tr:nth-child(6){background-color: #ff9966}
+	table.table1 tr:nth-child(7){background-color: white}
+	table.table1 tr:nth-child(8){background-color: #ffddcc}
+	table.table1 tr:nth-child(9){background-color: white}
+    table.table1 tr:nth-child(10){background-color: #ffddcc}
+	table.table1 tr:nth-child(11){background-color: white}
+    table.table1 tr:nth-child(12){background-color: #ffddcc}
+	table.table1 tr:nth-child(13){background-color: white}
+    table.table1 tr:nth-child(14){background-color: #ffff99}
+	table.table1 th {background-color: #4CAF50;color: white;}
+	table.table1 .subRow {   font-size : 75%; background-color: #CFCFCF; }
+	table.table2 {border-collapse: collapse;width: 100%;}
+	table.table2 th,td {text-align: left;padding: 8px;}
+	table.table2 tr:nth-child(2){background-color: #b0e892}
+	table.table2 tr:nth-child(3){background-color: #ea4f54}
+	table.table2 tr:nth-child(4){background-color: #eae84f}
+	table.table2 th {background-color: blue ;color: white;}
+	
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	</head>
+	<body>
+	<h1>ACCOUNT STATEMENT</h1>
+	<table class=  ' table1 ' >
+		<tr><th>JANUARY</th><th></th><th></th></tr>
+		<tr >
+		  <td>
+			<a class="parentRow"  href="#">  
+			  <img src='file:///android_asset/chevrondown.png' width='26px'> 
+		      <img src='file:///android_asset/chevronup.png' width='26px' style='display:none'> 
+			</a>
+		  </td>
+		  <td>Credit</td>
+		  <td> $CREDIT[0]$ </td>
+		</tr>
+		<tr style='display: none' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Bills</td>
+		  <td> $CREDIT_BILLS[0]$ </td>
+		</tr>
+		<tr style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Salary</td>
+		  <td> $CREDIT_SALARY[0]$ </td>
+		</tr >
+		<tr style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Others</td>
+		  <td> $CREDIT_OTHERS[0]$ </td>
+		</tr >
+		<tr>
+		  <td>
+			<a   class="parentRow"  href="#">  
+			  <img src='file:///android_asset/chevrondown.png' width='26px'> 
+		      <img src='file:///android_asset/chevronup.png' width='26px' style='display:none'> 
+			</a>	
+		  </td>
+		  <td>Debit</td>
+		  <td> $DEBIT[0]$ </td>
+	    </tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Bills</td>
+		  <td> $DEBIT_BILLS[0]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Dress</td>
+		  <td> $DEBIT_DRESS[0]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Entertainment</td>
+		  <td> $DEBIT_ENTERTAINMENT[0]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Food</td>
+		  <td> $DEBIT_FOOD[0]$  </td>
+	    </tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Grocery</td>
+		  <td> $DEBIT_GROCERY[0]$  </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Loans</td>
+		  <td> $DEBIT_LOAN[0]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Others</td>
+		  <td> $DEBIT_OTHERS[0]$ </td>
+		</tr>
+		<tr>
+		  <td>  <a class="parentRow"  href="#">  </a> </td>
+		  <td>Balance</td><td> $BALANCE[0]$ </td>
+	    </tr>
+		</table>
+		<table  class=  'table1' >  
+		<tr><th>FEBRUARY</th><th></th><th></th></tr>
+		<tr>
+		  <td>
+			<a class="parentRow"  href="#">  
+			  <img src='file:///android_asset/chevrondown.png' width='26px'> 
+		      <img src='file:///android_asset/chevronup.png' width='26px' style='display:none'> 
+			</a>	
+		  </td>
+		  <td>Credit</td><td> $CREDIT[1]$ </td>
+		</tr>
+		<tr style='display: none' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Bills</td>
+		  <td> $CREDIT_BILLS[1]$ </td>
+		</tr>
+		<tr style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Salary</td>
+		  <td> $CREDIT_SALARY[1]$ </td>
+		</tr >
+		<tr style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Others</td>
+		  <td> $CREDIT_OTHERS[1]$ </td>
+		</tr >
+		<tr>
+		  <td>
+			<a class="parentRow"  href="#">  
+			  <img src='file:///android_asset/chevrondown.png' width='26px'> 
+		      <img src='file:///android_asset/chevronup.png' width='26px' style='display:none'> 
+			</a>	
+		  </td>
+		  <td>Debit</td><td>$DEBIT[1]$</td>
+	    </tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Bills</td>
+		  <td> $DEBIT_BILLS[1]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Dress</td>
+		  <td> $DEBIT_DRESS[1]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Entertainment</td>
+		  <td> $DEBIT_ENTERTAINMENT[1]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Food</td>
+		  <td> $DEBIT_FOOD[1]$  </td>
+	    </tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Grocery</td>
+		  <td> $DEBIT_GROCERY[1]$  </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Loans</td>
+		  <td> $DEBIT_LOAN[1]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Others</td>
+		  <td> $DEBIT_OTHERS[1]$ </td>
+		</tr>
+		<tr>
+		  <td>  <a class="parentRow"  href="#">  </a> </td>
+		  <td>Balance</td><td> $BALANCE[1]$ </td></tr>
+	</table>
+	<table  class=  'table1'> 
+	    <tr><th>MARCH</th><th></th> <th></th> </tr>
+		<tr>
+		  <td>
+			<a class="parentRow"  href="#">  
+			  <img src='file:///android_asset/chevrondown.png' width='26px'> 
+		      <img src='file:///android_asset/chevronup.png' width='26px' style='display:none'> 
+			</a>	
+		  </td>
+		    <td>Credit</td>
+		    <td> $CREDIT[2]$ </td>
+		  </tr>
+		  <tr style='display: none' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Bills</td>
+		  <td> $CREDIT_BILLS[2]$ </td>
+		</tr>
+		<tr style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Salary</td>
+		  <td> $CREDIT_SALARY[2]$ </td>
+		</tr >
+		<tr style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Others</td>
+		  <td> $CREDIT_OTHERS[2]$ </td>
+		</tr >
+		<tr>
+		  <td>
+			<a class="parentRow"  href="#">  
+			  <img src='file:///android_asset/chevrondown.png' width='26px'> 
+		      <img src='file:///android_asset/chevronup.png' width='26px' style='display:none'> 
+			</a>	
+		  </td>
+		  <td>Debit</td><td>$DEBIT[2]$</td></tr>
+		  <tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Bills</td>
+		  <td> $DEBIT_BILLS[2]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Dress</td>
+		  <td> $DEBIT_DRESS[2]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Entertainment</td>
+		  <td> $DEBIT_ENTERTAINMENT[2]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Food</td>
+		  <td> $DEBIT_FOOD[2]$  </td>
+	    </tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Grocery</td>
+		  <td> $DEBIT_GROCERY[2]$  </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Loans</td>
+		  <td> $DEBIT_LOAN[2]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Others</td>
+		  <td> $DEBIT_OTHERS[2]$ </td>
+		</tr>
+		<tr>
+		  <td>  <a class="parentRow"  href="#">  </a> </td>
+		  <td>Balance</td><td> $BALANCE[2]$ </td></tr>
+	</table>
+	<table class=  'table1'  >
+		<tr><th>APRIL</th><th></th><th></th></tr>
+		<tr>
+		  <td>
+			<a class="parentRow"  href="#">  
+			  <img src='file:///android_asset/chevrondown.png' width='26px'> 
+		      <img src='file:///android_asset/chevronup.png' width='26px' style='display:none'> 
+			</a>	
+		  </td>
+		  <td>Credit</td><td>$CREDIT[3]$</td></tr>
+		 <tr style='display: none' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Bills</td>
+		  <td> $CREDIT_BILLS[4]$ </td>
+		</tr>
+		<tr style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Salary</td>
+		  <td> $CREDIT_SALARY[3]$ </td>
+		</tr >
+		<tr style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Others</td>
+		  <td> $CREDIT_OTHERS[3]$ </td>
+		</tr >
+		<tr>
+		  <td>
+			<a class="parentRow"  href="#">  
+			  <img src='file:///android_asset/chevrondown.png' width='26px'> 
+		      <img src='file:///android_asset/chevronup.png' width='26px' style='display:none'> 
+			</a>	
+		  </td>
+		  <td>Debit</td><td>$DEBIT[3]$</td></tr>
+		  <tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Bills</td>
+		  <td> $DEBIT_BILLS[3]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Dress</td>
+		  <td> $DEBIT_DRESS[3]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Entertainment</td>
+		  <td> $DEBIT_ENTERTAINMENT[3]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Food</td>
+		  <td> $DEBIT_FOOD[3]$  </td>
+	    </tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Grocery</td>
+		  <td> $DEBIT_GROCERY[3]$  </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Loans</td>
+		  <td> $DEBIT_LOAN[3]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Others</td>
+		  <td> $DEBIT_OTHERS[3]$ </td>
+		</tr>
+		<tr>
+		  <td>  <a class="parentRow"  href="#">  </a> </td>
+		  <td>Balance</td><td>$BALANCE[3]$</td></tr>
+	</table>
+	<table  class=  'table1'  >
+		<tr><th>MAY</th><th></th><th></th></tr>
+		<tr>
+		  <td>
+			<a class="parentRow"  href="#">  
+			  <img src='file:///android_asset/chevrondown.png' width='26px'> 
+		      <img src='file:///android_asset/chevronup.png' width='26px' style='display:none'> 
+			</a>	
+		  </td>
+		  <td>Credit</td><td>$CREDIT[4]$</td>
+		</tr>
+		<tr style='display: none' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Bills</td>
+		  <td> $CREDIT_BILLS[4]$ </td>
+		</tr>
+		<tr style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Salary</td>
+		  <td> $CREDIT_SALARY[4]$ </td>
+		</tr >  
+		<tr style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Others</td>
+		  <td> $CREDIT_OTHERS[4]$ </td>
+		</tr >
+		
+		<tr>
+		  <td>
+			<a class="parentRow"  href="#">  
+			  <img src='file:///android_asset/chevrondown.png' width='26px'> 
+		      <img src='file:///android_asset/chevronup.png' width='26px' style='display:none'> 
+			</a>	
+		  </td>
+		  <td>Debit</td><td>$DEBIT[4]$</td></tr>
+		  <tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Bills</td>
+		  <td> $DEBIT_BILLS[4]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Dress</td>
+		  <td> $DEBIT_DRESS[4]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Entertainment</td>
+		  <td> $DEBIT_ENTERTAINMENT[4]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Food</td>
+		  <td> $DEBIT_FOOD[5]$  </td>
+	    </tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Grocery</td>
+		  <td> $DEBIT_GROCERY[4]$  </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Loans</td>
+		  <td> $DEBIT_LOAN[4]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Others</td>
+		  <td> $DEBIT_OTHERS[4]$ </td>
+		</tr>
+		<tr>
+		  <td>  <a class="parentRow"  href="#">  </a> </td>
+	      <td>Balance</td><td>$BALANCE[4]$</td></tr>
+	</table>
+	<table  class=  ' table1 '  >
+		<tr><th>JUNE</th><th></th><th></th></tr>
+		<tr>
+		  <td>
+			<a class="parentRow"  href="#">  
+			  <img src='file:///android_asset/chevrondown.png' width='26px'> 
+		      <img src='file:///android_asset/chevronup.png' width='26px' style='display:none'> 
+			</a>	
+		  </td>
+		  <td>Credit</td><td>$CREDIT[5]$</td>
+		</tr>
+		<tr style='display: none' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Bills</td>
+		  <td> $CREDIT_BILLS[5]$ </td>
+		</tr>
+		<tr style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Salary</td>
+		  <td> $CREDIT_SALARY[5]$ </td>
+		</tr >
+		<tr style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Others</td>
+		  <td> $CREDIT_OTHERS[5]$ </td>
+		</tr >
+		<tr>
+		  <td>
+			<a class="parentRow"  href="#">  
+			  <img src='file:///android_asset/chevrondown.png' width='26px'> 
+		      <img src='file:///android_asset/chevronup.png' width='26px' style='display:none'> 
+			</a>	
+		  </td>
+		  <td>Debit</td><td>$DEBIT[5]$</td></tr>
+		  <tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Bills</td>
+		  <td> $DEBIT_BILLS[5]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Dress</td>
+		  <td> $DEBIT_DRESS[5]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Entertainment</td>
+		  <td> $DEBIT_ENTERTAINMENT[5]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Food</td>
+		  <td> $DEBIT_FOOD[5]$  </td>
+	    </tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Grocery</td>
+		  <td> $DEBIT_GROCERY[5]$  </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Loans</td>
+		  <td> $DEBIT_LOAN[5]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Others</td>
+		  <td> $DEBIT_OTHERS[5]$ </td>
+		</tr>
+		<tr>
+		  <td>  <a class="parentRow"  href="#">  </a> </td>
+		  <td>Balance</td><td>$BALANCE[5]$</td></tr>
+	</table>
+	<table class=  ' table1 ' >
+		<tr><th>JULY</th><th></th><th></th></tr>
+		<tr>
+		  <td>
+			<a class="parentRow"  href="#">  
+			  <img src='file:///android_asset/chevrondown.png' width='26px'> 
+		      <img src='file:///android_asset/chevronup.png' width='26px' style='display:none'> 
+			</a>	
+		  </td>
+		  <td>Credit</td><td>$CREDIT[6]$</td>
+	    </tr>
+		<tr style='display: none' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Bills</td>
+		  <td> $CREDIT_BILLS[6]$ </td>
+		</tr>
+		<tr style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Salary</td>
+		  <td> $CREDIT_SALARY[6]$ </td>
+		</tr >
+		<tr style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Salary</td>
+		  <td> $CREDIT_OTHERS[7]$ </td>
+		</tr >
+		<tr>
+		  <td>
+			<a class="parentRow"  href="#">  
+			  <img src='file:///android_asset/chevrondown.png' width='26px'> 
+		      <img src='file:///android_asset/chevronup.png' width='26px' style='display:none'> 
+			</a>	
+		  </td>
+		  <td>Debit</td><td>$DEBIT[6]$</td></tr>
+		  <tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Bills</td>
+		  <td> $DEBIT_BILLS[6]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Dress</td>
+		  <td> $DEBIT_DRESS[6]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Entertainment</td>
+		  <td> $DEBIT_ENTERTAINMENT[6]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Food</td>
+		  <td> $DEBIT_FOOD[6]$  </td>
+	    </tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Grocery</td>
+		  <td> $DEBIT_GROCERY[6]$  </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Loans</td>
+		  <td> $DEBIT_LOAN[6]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Others</td>
+		  <td> $DEBIT_OTHERS[6]$ </td>
+		</tr>
+		<tr>
+		  <td>  <a class="parentRow"  href="#">  </a> </td>
+		  <td>Balance</td><td>$BALANCE[6]$</td></tr>
+	</table>
+	<table class=  ' table1 ' >
+		<tr><th>AUGUST</th><th></th><th></th></tr>
+		<tr>
+		  <td>
+			<a class="parentRow"  href="#">  
+			  <img src='file:///android_asset/chevrondown.png' width='26px'> 
+		      <img src='file:///android_asset/chevronup.png' width='26px' style='display:none'> 
+			</a>	
+		  </td>
+		  <td>Credit</td><td>$CREDIT[7]$</td>
+		</tr>
+		<tr style='display: none' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Bills</td>
+		  <td> $CREDIT_BILLS[7]$ </td>
+		</tr>
+		<tr style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Salary</td>
+		  <td> $CREDIT_SALARY[7]$ </td>
+		</tr >
+		<tr style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Others</td>
+		  <td> $CREDIT_OTHERS[7]$ </td>
+		</tr >
+		<tr>
+		  <td>
+			<a class="parentRow"  href="#">  
+			  <img src='file:///android_asset/chevrondown.png' width='26px'> 
+		      <img src='file:///android_asset/chevronup.png' width='26px' style='display:none'> 
+			</a>	
+		  </td>
+		  <td>Debit</td><td>$DEBIT[7]$</td></tr>
+		  <tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Bills</td>
+		  <td> $DEBIT_BILLS[7]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Dress</td>
+		  <td> $DEBIT_DRESS[7]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Entertainment</td>
+		  <td> $DEBIT_ENTERTAINMENT[7]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Food</td>
+		  <td> $DEBIT_FOOD[7]$  </td>
+	    </tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Grocery</td>
+		  <td> $DEBIT_GROCERY[7]$  </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Loans</td>
+		  <td> $DEBIT_LOAN[7]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Others</td>
+		  <td> $DEBIT_OTHERS[7]$ </td>
+		</tr>
+		<tr>
+		  <td>  <a class="parentRow"  href="#">  </a> </td>
+		  <td>Balance</td><td>$BALANCE[7]$</td></tr>
+	</table>
+	<table  class=  ' table1 '>
+		<tr><th>SEPTEBER</th><th></th><th></th></tr>
+		<tr>
+		  <td>
+			<a class="parentRow"  href="#">  
+			  <img src='file:///android_asset/chevrondown.png' width='26px'> 
+		      <img src='file:///android_asset/chevronup.png' width='26px' style='display:none'> 
+			</a>	
+		  </td>
+		  <td>Credit</td><td>$CREDIT[8]$</td>
+		</tr>
+		<tr style='display: none' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Bills</td>
+		  <td> $CREDIT_BILLS[8]$ </td>
+		</tr>
+		<tr style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Salary</td>
+		  <td> $CREDIT_SALARY[8]$ </td>
+		</tr >
+		<tr style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Others</td>
+		  <td> $CREDIT_OTHERS[8]$ </td>
+		</tr >
+		<tr>
+		  <td>
+			<a class="parentRow"  href="#">  
+			  <img src='file:///android_asset/chevrondown.png' width='26px'> 
+		      <img src='file:///android_asset/chevronup.png' width='26px' style='display:none'> 
+			</a>	
+		  </td>
+		  <td>Debit</td><td>$DEBIT[8]$</td></tr>
+		  <tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Bills</td>
+		  <td> $DEBIT_BILLS[8]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Dress</td>
+		  <td> $DEBIT_DRESS[8]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Entertainment</td>
+		  <td> $DEBIT_ENTERTAINMENT[8]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Food</td>
+		  <td> $DEBIT_FOOD[8]$  </td>
+	    </tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Grocery</td>
+		  <td> $DEBIT_GROCERY[8]$  </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Loans</td>
+		  <td> $DEBIT_LOAN[8]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Others</td>
+		  <td> $DEBIT_OTHERS[9]$ </td>
+		</tr>
+		<tr>
+		  <td>  <a class="parentRow"  href="#">  </a> </td>
+		  <td>Balance</td><td>$BALANCE[8]$</td></tr>
+	</table>
+	<table   class=  ' table1 ' >
+		<tr><th>OCTOBER</th><th></th><th></th></tr>
+		<tr>
+		  <td>
+			<a class="parentRow"  href="#">  
+			  <img src='file:///android_asset/chevrondown.png' width='26px'> 
+		      <img src='file:///android_asset/chevronup.png' width='26px' style='display:none'> 
+			</a>	
+		  </td>
+		  <td>Credit</td><td>$CREDIT[9]$</td>
+		</tr>
+		<tr style='display: none' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Bills</td>
+		  <td> $CREDIT_BILLS[9]$ </td>
+		</tr>
+		<tr style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Salary</td>
+		  <td> $CREDIT_SALARY[9]$ </td>
+		</tr >
+		<tr style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Others</td>
+		  <td> $CREDIT_OTHERS[9]$ </td>
+		</tr >
+		<tr>
+		  <td>
+			<a class="parentRow"  href="#">  
+			  <img src='file:///android_asset/chevrondown.png' width='26px'> 
+		      <img src='file:///android_asset/chevronup.png' width='26px' style='display:none'> 
+			</a>	
+		  </td>
+		  <td>Debit</td><td>$DEBIT[9]$</td></tr>
+		  <tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Bills</td>
+		  <td> $DEBIT_BILLS[9]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Dress</td>
+		  <td> $DEBIT_DRESS[9]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Entertainment</td>
+		  <td> $DEBIT_ENTERTAINMENT[9]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Food</td>
+		  <td> $DEBIT_FOOD[9]$  </td>
+	    </tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Grocery</td>
+		  <td> $DEBIT_GROCERY[9]$  </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Loans</td>
+		  <td> $DEBIT_LOAN[9]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Others</td>
+		  <td> $DEBIT_OTHERS[9]$ </td>
+		</tr>
+		<tr>
+		  <td>  <a class="parentRow"  href="#">  </a> </td>
+		  <td>Balance</td><td>$BALANCE[9]$</td></tr>
+	</table>
+	<table  class=  ' table1 '> 
+		<tr><th>NOVEMBER</th><th></th><th></th></tr>
+		<tr>
+		  <td>
+			<a class="parentRow"  href="#">  
+			  <img src='file:///android_asset/chevrondown.png' width='26px'> 
+		      <img src='file:///android_asset/chevronup.png' width='26px' style='display:none'> 
+			</a>	
+		  </td>
+		  <td>Credit</td><td>$CREDIT[10]$</td>
+		</tr>
+		<tr style='display: none' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Bills</td>
+		  <td> $CREDIT_BILLS[10]$ </td>
+		</tr>
+		<tr style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Salary</td>
+		  <td> $CREDIT_SALARY[10]$ </td>
+		</tr >
+		<tr style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Others</td>
+		  <td> $CREDIT_OTHERS[10]$ </td>
+		</tr >
+		<tr>
+		  <td>
+			<a class="parentRow"  href="#">  
+			  <img src='file:///android_asset/chevrondown.png' width='26px'> 
+		      <img src='file:///android_asset/chevronup.png' width='26px' style='display:none'> 
+			</a>	
+		  </td>
+		  <td>Debit</td><td>$DEBIT[10]$</td></tr>
+		  <tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Bills</td>
+		  <td> $DEBIT_BILLS[10]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Dress</td>
+		  <td> $DEBIT_DRESS[10]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Entertainment</td>
+		  <td> $DEBIT_ENTERTAINMENT[10]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Food</td>
+		  <td> $DEBIT_FOOD[10]$  </td>
+	    </tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Grocery</td>
+		  <td> $DEBIT_GROCERY[10]$  </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Loans</td>
+		  <td> $DEBIT_LOAN[10]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Others</td>
+		  <td> $DEBIT_OTHERS[10]$ </td>
+		</tr>
+		<tr>
+		  <td>  <a class="parentRow"  href="#">  </a> </td>
+		  <td>Balance</td><td>$BALANCE[10]$</td></tr>
+	</table>
+	<table class=  ' table1 ' >
+		<tr><th>DECEMBER</th><th></th><th></th></tr>
+		<tr>
+		  <td>
+			<a class="parentRow"  href="#">  
+			  <img src='file:///android_asset/chevrondown.png' width='26px'> 
+		      <img src='file:///android_asset/chevronup.png' width='26px' style='display:none'> 
+			</a>	
+		  </td>
+		  <td>Credit</td><td>$CREDIT[11]$</td>
+		</tr>
+		<tr style='display: none' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Bills</td>
+		  <td> $CREDIT_BILLS[11]$ </td>
+		</tr>
+		<tr style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Salary</td>
+		  <td> $CREDIT_SALARY[11]$ </td>
+		</tr >
+		<tr style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Others</td>
+		  <td> $CREDIT_OTHERS[11]$ </td>
+		</tr >
+		<tr>
+		  <td>
+			<a class="parentRow"  href="#">  
+			  <img src='file:///android_asset/chevrondown.png' width='26px'> 
+		      <img src='file:///android_asset/chevronup.png' width='26px' style='display:none'> 
+			</a>	
+		  </td>
+		  <td>Debit</td><td>$DEBIT[11]$</td></tr>
+		  <tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Bills</td>
+		  <td> $DEBIT_BILLS[11]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Dress</td>
+		  <td> $DEBIT_DRESS[11]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Entertainment</td>
+		  <td> $DEBIT_ENTERTAINMENT[11]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Food</td>
+		  <td> $DEBIT_FOOD[11]$  </td>
+	    </tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Grocery</td>
+		  <td> $DEBIT_GROCERY[11]$  </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Loans</td>
+		  <td> $DEBIT_LOAN[11]$ </td>
+		</tr>
+		<tr  style='display: none ' class= 'subRow' style='display:none'>
+		  <td></td>
+		  <td>Others</td>
+		  <td> $DEBIT_OTHERS[11]$ </td>
+		</tr>
+		<tr>
+		  <td>  <a class="parentRow"  href="#">  </a> </td>
+		  <td>Balance</td><td>$BALANCE[11]$</td></tr>
+	</table>
+	<table  class=  ' table2 '>
+		<tr><th>YEARLY STATEMENT</th><th></th></tr>
+		<tr><td>Credit</td><td>$yCredit$</td></tr>
+		<tr><td>Debit</td><td>$yDebit$</td></tr>
+		<tr><td>Balance</td><td>$yBalance$</td></tr>
+	</table>
+	<script>
+	 
+	    $(".parentRow").click(function() {
+        $(this).closest('tr').nextUntil("tr:has(.parentRow)").toggle("slow", function() {});
+	    $(this).find('img').toggle();
+        });
+	  
+      
+    </script>
+</body>
+</html>

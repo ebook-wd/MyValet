@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyValet</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="bar_chart">Bar Chart</string>
+	<string name="search_string">Search</string>
+	<string name="view_string">View</string>
+	<string name="edit_string">Edit</string>
+	
+	<string-array name="credit_category_array">
+	    <item>Salary</item>
+	    <item>Bills</item>
+		<item>Others</item>
+	</string-array>
+	<string-array name="debit_category_array">
+		<item>Food</item>
+		<item>Entertainment</item>
+		<item>Loan</item>
+		<item>Bills</item>
+		<item>Grocery</item>
+		<item>Dress</item>
+		<item>Others</item>
+	</string-array>
+	<string-array name="view_array">
+		<item>JANUARY</item>
+		<item>FEBRUARY</item>
+		<item>MARCH</item>
+		<item>APRIL</item>
+		<item>MAY</item>
+		<item>JUNE</item>
+		<item>JULY</item>
+		<item>AUGUST</item>
+		<item>SEPTEMBER</item>
+		<item>OCTOBER</item>
+		<item>NOVBER</item>
+		<item>DECEMBER</item>
+	</string-array>
+	<string-array name="month_search_array">
+		<item></item>
+		<item>JANUARY</item>
+		<item>FEBRUARY</item>
+		<item>MARCH</item>
+		<item>APRIL</item>
+		<item>MAY</item>
+		<item>JUNE</item>
+		<item>JULY</item>
+		<item>AUGUST</item>
+		<item>SEPTEMBER</item>
+		<item>OCTOBER</item>
+		<item>NOVBER</item>
+		<item>DECEMBER</item>
+	</string-array>
+	
+	<string-array name="category_search_array">
+		<item></item>
+		<item>Salary</item>
+		<item>Food</item>
+		<item>Entertainment</item>
+		<item>Loan</item>
+		<item>Others</item>
+		<item>Bills</item>
+		<item>Grocery</item>
+		<item>Dress</item>
+		<item>Others</item>
+	</string-array>
+	<string-array name="amount_array">
+		<item></item>
+		<item>Equal</item>
+		<item>Less Than</item>
+		<item>Greater Than</item>
+	</string-array>
+</resources>

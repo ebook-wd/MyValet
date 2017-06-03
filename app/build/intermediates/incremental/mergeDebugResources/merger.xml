@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="/home/ubuntu1604/MyValet/app/src/main/res"/><source path="/home/ubuntu1604/MyValet/app/build/generated/res/rs/debug"/><source path="/home/ubuntu1604/MyValet/app/build/generated/res/resValues/debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="/home/ubuntu1604/MyValet/app/src/debug/res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="/home/ubuntu1604/MyValet/app/src/main/res"><file path="/home/ubuntu1604/MyValet/app/src/main/res/values/strings.xml" qualifiers=""><string name="hello_world">Hello world!</string><string name="bar_chart">Bar Chart</string><string-array name="month_search_array">
+		<item/>
+		<item>JANUARY</item>
+		<item>FEBRUARY</item>
+		<item>MARCH</item>
+		<item>APRIL</item>
+		<item>MAY</item>
+		<item>JUNE</item>
+		<item>JULY</item>
+		<item>AUGUST</item>
+		<item>SEPTEMBER</item>
+		<item>OCTOBER</item>
+		<item>NOVBER</item>
+		<item>DECEMBER</item>
+	</string-array><string-array name="category_search_array">
+		<item/>
+		<item>Salary</item>
+		<item>Food</item>
+		<item>Entertainment</item>
+		<item>Loan</item>
+		<item>Others</item>
+		<item>Bills</item>
+		<item>Grocery</item>
+		<item>Dress</item>
+		<item>Others</item>
+	</string-array><string name="search_string">Search</string><string name="app_name">MyValet</string><string name="edit_string">Edit</string><string-array name="debit_category_array">
+		<item>Food</item>
+		<item>Entertainment</item>
+		<item>Loan</item>
+		<item>Bills</item>
+		<item>Grocery</item>
+		<item>Dress</item>
+		<item>Others</item>
+	</string-array><string-array name="amount_array">
+		<item/>
+		<item>Equal</item>
+		<item>Less Than</item>
+		<item>Greater Than</item>
+	</string-array><string-array name="credit_category_array">
+	    <item>Salary</item>
+	    <item>Bills</item>
+		<item>Others</item>
+	</string-array><string name="view_string">View</string><string-array name="view_array">
+		<item>JANUARY</item>
+		<item>FEBRUARY</item>
+		<item>MARCH</item>
+		<item>APRIL</item>
+		<item>MAY</item>
+		<item>JUNE</item>
+		<item>JULY</item>
+		<item>AUGUST</item>
+		<item>SEPTEMBER</item>
+		<item>OCTOBER</item>
+		<item>NOVBER</item>
+		<item>DECEMBER</item>
+	</string-array></file><file path="/home/ubuntu1604/MyValet/app/src/main/res/values/color.xml" qualifiers=""><color name="White">#FFFFFFFF</color><color name="Teal">#FF008080</color><color name="Red">#FFFF0000</color><color name="Blue">#FF0000FF</color><color name="Gray">#FF808080</color><color name="Lime">#FF00FF00</color><color name="Black">#FF000000</color><color name="Aqua">#FF00FFFF</color><color name="Navy">#FF000080</color><color name="Yellow">#FFFFFF00</color><color name="Purple">#FF800080</color><color name="Silver">#FFC0C0C0</color><color name="Green">#FF008000</color><color name="Maroon">#FF800000</color><color name="Fuchsia">#FFFF00FF</color><color name="Olive">#FF808000</color></file><file path="/home/ubuntu1604/MyValet/app/src/main/res/values/styles.xml" qualifiers=""><style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+	</style><style name="DarkTheme" parent="@android:style/Theme.Holo">
+	</style></file><file name="search" path="/home/ubuntu1604/MyValet/app/src/main/res/drawable-xxhdpi/search.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="barchart" path="/home/ubuntu1604/MyValet/app/src/main/res/drawable-xxhdpi/barchart.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_launcher" path="/home/ubuntu1604/MyValet/app/src/main/res/drawable-xxhdpi/ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="view" path="/home/ubuntu1604/MyValet/app/src/main/res/drawable-xxhdpi/view.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="account" path="/home/ubuntu1604/MyValet/app/src/main/res/drawable-xxhdpi/account.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="edit" path="/home/ubuntu1604/MyValet/app/src/main/res/drawable-xxhdpi/edit.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="launcher_icon" path="/home/ubuntu1604/MyValet/app/src/main/res/mipmap-xxxhdpi/launcher_icon.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher" path="/home/ubuntu1604/MyValet/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="launcher_icon" path="/home/ubuntu1604/MyValet/app/src/main/res/mipmap-mdpi/launcher_icon.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher" path="/home/ubuntu1604/MyValet/app/src/main/res/mipmap-mdpi/ic_launcher.png" qualifiers="mdpi-v4" type="mipmap"/><file name="display" path="/home/ubuntu1604/MyValet/app/src/main/res/layout/display.xml" qualifiers="" type="layout"/><file name="view_statement" path="/home/ubuntu1604/MyValet/app/src/main/res/layout/view_statement.xml" qualifiers="" type="layout"/><file name="theme_dialog" path="/home/ubuntu1604/MyValet/app/src/main/res/layout/theme_dialog.xml" qualifiers="" type="layout"/><file name="line_chart" path="/home/ubuntu1604/MyValet/app/src/main/res/layout/line_chart.xml" qualifiers="" type="layout"/><file name="pi_chart" path="/home/ubuntu1604/MyValet/app/src/main/res/layout/pi_chart.xml" qualifiers="" type="layout"/><file name="chart" path="/home/ubuntu1604/MyValet/app/src/main/res/layout/chart.xml" qualifiers="" type="layout"/><file name="export_dialog" path="/home/ubuntu1604/MyValet/app/src/main/res/layout/export_dialog.xml" qualifiers="" type="layout"/><file name="edit_menu_dialog" path="/home/ubuntu1604/MyValet/app/src/main/res/layout/edit_menu_dialog.xml" qualifiers="" type="layout"/><file name="search" path="/home/ubuntu1604/MyValet/app/src/main/res/layout/search.xml" qualifiers="" type="layout"/><file name="costom_title" path="/home/ubuntu1604/MyValet/app/src/main/res/layout/costom_title.xml" qualifiers="" type="layout"/><file name="main" path="/home/ubuntu1604/MyValet/app/src/main/res/layout/main.xml" qualifiers="" type="layout"/><file name="view_dialog" path="/home/ubuntu1604/MyValet/app/src/main/res/layout/view_dialog.xml" qualifiers="" type="layout"/><file name="item_header" path="/home/ubuntu1604/MyValet/app/src/main/res/layout/item_header.xml" qualifiers="" type="layout"/><file name="column_row" path="/home/ubuntu1604/MyValet/app/src/main/res/layout/column_row.xml" qualifiers="" type="layout"/><file name="edit_dialog" path="/home/ubuntu1604/MyValet/app/src/main/res/layout/edit_dialog.xml" qualifiers="" type="layout"/><file name="launcher_icon" path="/home/ubuntu1604/MyValet/app/src/main/res/mipmap-xxhdpi/launcher_icon.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher" path="/home/ubuntu1604/MyValet/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="edit_menu" path="/home/ubuntu1604/MyValet/app/src/main/res/menu/edit_menu.xml" qualifiers="" type="menu"/><file name="ic_launcher" path="/home/ubuntu1604/MyValet/app/src/main/res/drawable-hdpi/ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file path="/home/ubuntu1604/MyValet/app/src/main/res/values-v21/styles.xml" qualifiers="v21"><style name="AppTheme" parent="@android:style/Theme.Material.Light">
+	</style></file><file name="launcher_icon" path="/home/ubuntu1604/MyValet/app/src/main/res/mipmap-hdpi/launcher_icon.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher" path="/home/ubuntu1604/MyValet/app/src/main/res/mipmap-hdpi/ic_launcher.png" qualifiers="hdpi-v4" type="mipmap"/><file name="launcher_icon" path="/home/ubuntu1604/MyValet/app/src/main/res/mipmap-xhdpi/launcher_icon.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher" path="/home/ubuntu1604/MyValet/app/src/main/res/mipmap-xhdpi/ic_launcher.png" qualifiers="xhdpi-v4" type="mipmap"/></source><source path="/home/ubuntu1604/MyValet/app/build/generated/res/rs/debug"/><source path="/home/ubuntu1604/MyValet/app/build/generated/res/resValues/debug"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="/home/ubuntu1604/MyValet/app/src/debug/res"/></dataSet><mergedItems/></merger>

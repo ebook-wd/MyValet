@@ -1,0 +1,52 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+   
+	<item android:id="@+id/menu_view"
+		android:icon="@drawable/view"
+	    android:title="@string/view_string"
+		android:showAsAction="always"/>
+	
+	<item android:id="@+id/menu_chart"
+		android:icon="@drawable/barchart"
+	    android:title="@string/bar_chart"
+	    android:showAsAction="always" >
+		
+		<!-- "file" submenu -->
+        <menu>
+			<item android:id="@+id/line_chart"
+				android:title="Line Chart" />
+            <item android:id="@+id/bar_chart"
+				android:title="Bar Chart" />
+            <item android:id="@+id/pi_chart"
+				android:title= "Pi Chart" />
+        </menu>
+	</item>
+	
+	<item android:id="@+id/menu_edit"
+		android:icon="@drawable/edit"
+	    android:title="@string/edit_string" 
+		android:showAsAction="always"/>
+	
+	<item android:id="@+id/menu_statement"
+		android:title="Statement" />
+	
+	<item
+        android:id="@+id/menu_export"
+        android:title="Export"/>
+
+    <item android:id="@+id/menu_search"
+		android:icon="@drawable/search"
+	    android:title="@string/search_string"
+	    android:showAsAction="always" />
+
+    <item android:id="@+id/menu_settings"
+		android:title="Settings" />
+	
+	<item android:id="@+id/menu_help"
+		android:title="Help" />
+	
+	<item android:id="@+id/about"
+		android:title="About" />
+	    
+	
+</menu>

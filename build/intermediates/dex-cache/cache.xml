@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/ubuntu1604/.gradle/caches/modules-2/files-2.1/com.github.PhilJay/MPAndroidChart/v2.2.4/7abd1ecef320da6a7679b137083151401fe8bf43/MPAndroidChart-v2.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.0"
+        sha1="7abd1ecef320da6a7679b137083151401fe8bf43">
+        <dex dex="/home/ubuntu1604/MyValet/app/build/intermediates/pre-dexed/debug/MPAndroidChart-v2.2.4_fb821c5492bae54a487c4074ee13be83962d8db3.jar" />
+    </item>
+
+</items>

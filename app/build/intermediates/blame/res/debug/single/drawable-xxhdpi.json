@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/ubuntu1604/MyValet/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_launcher.png",
+        "source": "/home/ubuntu1604/MyValet/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/ubuntu1604/MyValet/app/build/intermediates/res/merged/debug/drawable-xxhdpi/search.png",
+        "source": "/home/ubuntu1604/MyValet/app/src/main/res/drawable-xxhdpi/search.png"
+    },
+    {
+        "merged": "/home/ubuntu1604/MyValet/app/build/intermediates/res/merged/debug/drawable-xxhdpi/barchart.png",
+        "source": "/home/ubuntu1604/MyValet/app/src/main/res/drawable-xxhdpi/barchart.png"
+    },
+    {
+        "merged": "/home/ubuntu1604/MyValet/app/build/intermediates/res/merged/debug/drawable-xxhdpi/view.png",
+        "source": "/home/ubuntu1604/MyValet/app/src/main/res/drawable-xxhdpi/view.png"
+    },
+    {
+        "merged": "/home/ubuntu1604/MyValet/app/build/intermediates/res/merged/debug/drawable-xxhdpi/account.png",
+        "source": "/home/ubuntu1604/MyValet/app/src/main/res/drawable-xxhdpi/account.png"
+    },
+    {
+        "merged": "/home/ubuntu1604/MyValet/app/build/intermediates/res/merged/debug/drawable-xxhdpi/edit.png",
+        "source": "/home/ubuntu1604/MyValet/app/src/main/res/drawable-xxhdpi/edit.png"
+    }
+]

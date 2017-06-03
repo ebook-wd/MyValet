@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "/home/ubuntu1604/MyValet/app/build/intermediates/res/merged/release/layout/view_statement.xml",
+        "source": "/home/ubuntu1604/MyValet/app/src/main/res/layout/view_statement.xml"
+    },
+    {
+        "merged": "/home/ubuntu1604/MyValet/app/build/intermediates/res/merged/release/layout/costom_title.xml",
+        "source": "/home/ubuntu1604/MyValet/app/src/main/res/layout/costom_title.xml"
+    },
+    {
+        "merged": "/home/ubuntu1604/MyValet/app/build/intermediates/res/merged/release/layout/search.xml",
+        "source": "/home/ubuntu1604/MyValet/app/src/main/res/layout/search.xml"
+    },
+    {
+        "merged": "/home/ubuntu1604/MyValet/app/build/intermediates/res/merged/release/layout/display.xml",
+        "source": "/home/ubuntu1604/MyValet/app/src/main/res/layout/display.xml"
+    },
+    {
+        "merged": "/home/ubuntu1604/MyValet/app/build/intermediates/res/merged/release/layout/edit_menu_dialog.xml",
+        "source": "/home/ubuntu1604/MyValet/app/src/main/res/layout/edit_menu_dialog.xml"
+    },
+    {
+        "merged": "/home/ubuntu1604/MyValet/app/build/intermediates/res/merged/release/layout/export_dialog.xml",
+        "source": "/home/ubuntu1604/MyValet/app/src/main/res/layout/export_dialog.xml"
+    },
+    {
+        "merged": "/home/ubuntu1604/MyValet/app/build/intermediates/res/merged/release/layout/column_row.xml",
+        "source": "/home/ubuntu1604/MyValet/app/src/main/res/layout/column_row.xml"
+    },
+    {
+        "merged": "/home/ubuntu1604/MyValet/app/build/intermediates/res/merged/release/layout/chart.xml",
+        "source": "/home/ubuntu1604/MyValet/app/src/main/res/layout/chart.xml"
+    },
+    {
+        "merged": "/home/ubuntu1604/MyValet/app/build/intermediates/res/merged/release/layout/view_dialog.xml",
+        "source": "/home/ubuntu1604/MyValet/app/src/main/res/layout/view_dialog.xml"
+    },
+    {
+        "merged": "/home/ubuntu1604/MyValet/app/build/intermediates/res/merged/release/layout/theme_dialog.xml",
+        "source": "/home/ubuntu1604/MyValet/app/src/main/res/layout/theme_dialog.xml"
+    },
+    {
+        "merged": "/home/ubuntu1604/MyValet/app/build/intermediates/res/merged/release/layout/pi_chart.xml",
+        "source": "/home/ubuntu1604/MyValet/app/src/main/res/layout/pi_chart.xml"
+    },
+    {
+        "merged": "/home/ubuntu1604/MyValet/app/build/intermediates/res/merged/release/layout/main.xml",
+        "source": "/home/ubuntu1604/MyValet/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/home/ubuntu1604/MyValet/app/build/intermediates/res/merged/release/layout/line_chart.xml",
+        "source": "/home/ubuntu1604/MyValet/app/src/main/res/layout/line_chart.xml"
+    },
+    {
+        "merged": "/home/ubuntu1604/MyValet/app/build/intermediates/res/merged/release/layout/item_header.xml",
+        "source": "/home/ubuntu1604/MyValet/app/src/main/res/layout/item_header.xml"
+    },
+    {
+        "merged": "/home/ubuntu1604/MyValet/app/build/intermediates/res/merged/release/layout/edit_dialog.xml",
+        "source": "/home/ubuntu1604/MyValet/app/src/main/res/layout/edit_dialog.xml"
+    }
+]

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="Select Date"
+				android:textSize="15sp"
+				android:gravity="bottom"
+				android:layout_margin="5dp"
+				android:layout_weight="1.0"
+				android:textColor="#000000"/>
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:focusable="true"
+				android:id="@+id/editDate"
+				android:ems="10"
+				android:inputType="date"
+				android:textIsSelectable="false"
+				android:hint="yyyy-mm-dd"
+				android:layout_weight="1.0"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal">
+
+			<RadioGroup
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/radioGroup"
+				android:orientation="horizontal">
+
+				<RadioButton
+					android:id="@+id/radio_credit"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Credit"
+					android:checked="true"
+					android:layout_weight="1.0"/>
+
+				<RadioButton
+					android:id="@+id/radio_debit"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Debit"
+					android:layout_weight="1.0"/>
+
+			</RadioGroup>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="Category   "
+				android:textSize="15sp"
+				android:layout_weight="1.0"
+				android:gravity="bottom"
+				android:layout_margin="5dp"
+				android:textColor="#000000"/>
+
+			<Spinner
+				android:id="@+id/category_spinner"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1.0"
+				android:dropDownHorizontalOffset="5dp"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="Discription"
+				android:textSize="15sp"
+				android:layout_weight="1.0"
+				android:gravity="bottom"
+				android:layout_margin="5dp"
+				android:textColor="#000000"/>
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:id="@+id/editDiscription"
+				android:ems="10"
+				android:layout_weight="1.0"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="Amount     "
+				android:textSize="15sp"
+				android:layout_weight="1.0"
+				android:gravity="bottom"
+				android:layout_margin="5dp"
+				android:textColor="#000000"/>
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:inputType="numberDecimal"
+				android:layout_width="wrap_content"
+				android:id="@+id/editAmount"
+				android:ems="10"
+				android:layout_weight="1.0"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal">
+
+			<Button
+				android:layout_height="35dp"
+				android:layout_width="wrap_content"
+				android:id="@+id/button"
+				android:text="Add"
+				android:onClick="sendMessage"
+				android:layout_weight="1.0"
+				android:background="#03DDD3"
+				android:layout_margin="10dp"/>
+
+			<Button
+				android:layout_height="35dp"
+				android:layout_width="wrap_content"
+				android:text="Cancel"
+				android:id="@+id/maincancelButton"
+				android:layout_weight="1.0"
+				android:background="#03DDD3"
+				android:layout_margin="10dp"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="Credit"
+				android:layout_weight="1.0"
+				android:id="@+id/creditView"
+				android:textColor="#7FF218"
+				android:textStyle="bold"
+				android:background="#6F6868"
+				android:textSize="15sp"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="Debit"
+				android:layout_weight="1.0"
+				android:id="@+id/debitView"
+				android:textColor="#F88245"
+				android:textStyle="bold"
+				android:background="#6F6868"
+				android:textSize="15sp"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="Balance"
+				android:layout_weight="1.0"
+				android:id="@+id/balanceView"
+				android:textStyle="bold"
+				android:background="#6F6868"
+				android:textSize="15sp"
+				android:textColor="#E7F50D"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="0dp"
+				android:text="Id"
+				android:layout_weight="0.4"
+				android:textAlignment="viewStart"
+				android:layout_margin="0dp"
+				android:textColor="#000000"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="0dp"
+				android:text="Date"
+				android:layout_weight="0.6"
+				android:textAlignment="viewStart"
+				android:layout_margin="0dp"
+				android:textColor="#000000"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="0dp"
+				android:text="Discription"
+				android:layout_weight="1.0"
+				android:textAlignment="viewStart"
+				android:layout_margin="0dp"
+				android:textColor="#000000"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="0dp"
+				android:text="Amount"
+				android:layout_weight="1.0"
+				android:textAlignment="viewStart"
+				android:layout_margin="0dp"
+				android:textColor="#000000"/>
+
+		</LinearLayout>
+
+		<ListView
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:id="@+id/accountView"
+			android:dividerHeight="1dp"
+			android:divider="#A2A2A2"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
