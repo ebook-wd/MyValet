@@ -7,6 +7,23 @@
 	<string name="search_string">Search</string>
 	<string name="view_string">View</string>
 	<string name="edit_string">Edit</string>
+	<string name="select_date_string">Select Date</string>
+	<string name="credit_string">Credit</string>
+	<string name="debit_string">Debit</string>
+	<string name="balance_string">Balance</string>
+	<string name="amount_string">Amount</string>
+	<string name="cancel_string">Cancel</string>
+	<string name="catagory_String">Catagory</string>
+	<string name="discription_string">Discription</string>
+	<string name="add_string">Add</string>
+	<string name="date_string">Date</string>
+	<string name="ok_string">Ok</string>
+	<string name="dark_string">Dark</string>
+	<string name="light_string">Light</string>
+	<string name="select_theme_string">Select the theme</string>
+	<string name="enter_id_string">Enter the id of the item</string>
+	<string name="select_month_string">Select the month</string>
+	<string name="enter_year_string">Enter the year</string>
 	
 	<string-array name="credit_category_array">
 	    <item>Salary</item>
