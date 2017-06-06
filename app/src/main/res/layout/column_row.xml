@@ -8,30 +8,33 @@
 	<TextView
 		android:layout_height="wrap_content"
 		android:layout_width="0dp"
-		android:text="Text"
 		android:id="@+id/idView"
 		android:layout_weight="0.4"
 		android:textAlignment="viewStart"
-		android:background="#FFF890"/>
+		android:layout_gravity="start"
+		android:background="#FFF890"
+		android:textColor="#000000"/>
 
 	<TextView
 		android:layout_height="wrap_content"
 		android:layout_width="0dp"
-		android:text="Text"
 		android:id="@+id/dateView"
 		android:layout_weight=".6"
 		android:textAlignment="viewStart"
-		android:background="#CDEDFF"/>
+		android:layout_gravity="start"
+		android:background="#CDEDFF"
+		android:textColor="#000000"/>
 
 	<TextView
 		android:layout_height="wrap_content"
 		android:layout_width="0dp"
-		android:text="Text"
 		android:id="@+id/discriptionView"
 		android:layout_weight="1.0"
 		android:textAlignment="viewStart"
+		android:layout_gravity="start"
 		android:background="#FBD9F9"
-		android:maxLines="1"/>
+		android:maxLines="1"
+		android:textColor="#000000"/>
 
 	<TextView
 		android:layout_height="wrap_content"
@@ -41,7 +44,8 @@
 		android:layout_weight="1.0"
 		android:textAlignment="gravity"
 		android:background="#B7FCD9"
-		android:gravity="right"/>
+		android:gravity="end"
+		android:textColor="#000000"/>
 
 </LinearLayout>
 

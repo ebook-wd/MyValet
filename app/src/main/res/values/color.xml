@@ -2,7 +2,8 @@
 <resources>
     <color name="White">#FFFFFFFF</color>
     <color name="Silver">#FFC0C0C0</color>
-    <color name="Gray">#FF808080</color>
+    <color name="Grey">#FF808080</color>
+    <color name="MaterialGrey">#FF424242</color>
     <color name="Black">#FF000000</color>
     <color name="Red">#FFFF0000</color>
     <color name="Maroon">#FF800000</color>

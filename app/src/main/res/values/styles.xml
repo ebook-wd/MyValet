@@ -3,5 +3,7 @@
 	<style name = "AppTheme" parent="@android:style/Theme.Holo.Light">
 	</style>
 	<style name = "DarkTheme" parent="@android:style/Theme.Holo">
+		<item name="android:windowBackground">@color/MaterialGrey</item>
+		<item name="android:textColor">@color/White</item>
 	</style>
 </resources>
